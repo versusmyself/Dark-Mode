@@ -1,4 +1,3 @@
-let isDark = false;
 
 
 const css = `
@@ -57,10 +56,6 @@ const css = `
     color: #aaaaaa !important;
   }
 
-  /* Links */
-  a, a * {
-    color: #a8d8ff !important;
-  }
 
   /* Images and icons */
   img, video {
@@ -238,9 +233,11 @@ button#savearticlebtn.btn:hover {
     color: #ff4d4d !important;
   }
   
-  div.form-group:nth-child(7) > label:nth-child(1) {
+  div.form-group:nth-child(8) > label:nth-child(1), div.form-group:nth-child(8) > div:nth-child(2) {
     color: #ff4d4d !important;
   }
+
+  
   
   div.form-group:nth-child(3),
 div.form-group:nth-child(3) * {
@@ -282,76 +279,421 @@ div.form-group:nth-child(3) * {
     color: #ff4d4d !important;
   }
   
+
+  .dropdown-menu.dropdown-menu {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+  }
+  
+  .dropdown-menu.dropdown-menu * {
+    color: #ffffff !important;
+    text-shadow: none !important;
+  }
+  
+  html body div.navbar.navbar-fixed-top.navbar-inverse div.navbar-inner div.container ul.nav li.dropdown.open a.dropdown-toggle {
+    color: #ff4d4d !important;
+  }
+  
+  a.dropdown-toggle {
+    color: #ff4d4d !important;
+  }
+  
+  .dropdown-menu > li:nth-child(1),
+  .dropdown-menu > li:nth-child(8),
+  .dropdown-menu > li:nth-child(13) {
+    background-color: #444444 !important;
+  }
+  
+  table.table:nth-child(16) > tbody:nth-child(1) > tr:nth-child(33) > td:nth-child(2) > a:nth-child(3) {
+    background-color: #3cb371 !important;
+    color: #ffffff !important;
+  }
+  
+  table.table:nth-child(16) > tbody:nth-child(1) > tr:nth-child(29) > th:nth-child(1) > b:nth-child(1) {
+    color: #ff4d4d !important;
+  }
+  
+  table.table:nth-child(16) > tbody:nth-child(1) > tr:nth-child(29) > td:nth-child(2),
+table.table:nth-child(16) > tbody:nth-child(1) > tr:nth-child(29) > td:nth-child(2) * {
+  color: #ff4d4d !important;
+}
+
+table.table:nth-child(16) > tbody:nth-child(1) > tr:nth-child(27), table.table:nth-child(16) > tbody:nth-child(1) > tr:nth-child(27) * {color: #ff4d4d !important;
+}
+  
+form#unassignform input#unassignButton.btn.btn-danger {
+    background-color: #cc4444 !important;
+    color: #ffffff !important;
+    border-color: #992e2e !important;
+    box-shadow: none !important;
+    background-image: none !important;
+  }
+  
+  form#unassignform input#unassignButton.btn.btn-danger:hover {
+    background-color: #d15555 !important;
+  }
+
+  form#articleform input#saveArticleDatabtn.btn.btn-success {
+    background-color: #3cb371 !important;
+    color: #ffffff !important;
+    border-color: #2d7f51 !important;
+    box-shadow: none !important;
+    background-image: none !important;
+  }
+  
+  form#articleform input#saveArticleDatabtn.btn.btn-success:hover {
+    background-color: #34a064 !important;
+  }
+  
+  .mce-btn,
+.mce-btn *,
+.mce-btn span,
+.mce-btn i {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+  border: 1px solid #444 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  outline: none !important;
+}
+
+#mceu_2-open > span:nth-child(1) {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    outline: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border: none !important;
+  }
   
   
+  #mceu_21 {
+    background-color: #1e1e1e !important;
+  }
+  
+  #mceu_21 * {
+    background-color: #1e1e1e !important;
+  }
+  
+
+  .mce-btn .mce-i-bold {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+  }
+  
+  #mceu_34 {
+    display: none !important;
+  }
+  
+  #articleform > div:nth-child(44),
+#articleform > div:nth-child(44) * {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+#approveArticle {
+    background-color: #3cb371 !important;
+    color: #ffffff !important;
+    border-color: #2d7f51 !important;
+    box-shadow: none !important;
+    background-image: none !important;
+  }
+  
+  #approveArticle:hover {
+    background-color: #34a064 !important;
+  }
+
+  #keywords,
+#keywords_second {
+  background-color: #1f2125 !important;
+  color: #ffffff !important;
+  border: 1px solid #444 !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+table.table:nth-child(16) > tbody:nth-child(1) > tr:nth-child(6),
+table.table:nth-child(16) > tbody:nth-child(1) > tr:nth-child(6) * {
+  color: #ff4d4d !important;
+}
+
+.col-md-5 > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(2) > div:nth-child(2) {
+    color: #ff4d4d !important;
+  }
+  
+
+table.table:nth-child(16) > tbody:nth-child(1) > tr:nth-child(15) > td:nth-child(2) > a:nth-child(1) {
+    color: #ff4d4d !important;
+  }
+  
+  .list-panel {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+  }
+  
+  .card__header, card__body {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+  }
+  .card__body.card__border {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+  }
+
+  table.h-table:nth-child(22),
+  table.h-table:nth-child(22) *,
+  
+  table.h-table:nth-child(26),
+  table.h-table:nth-child(26) *,
+  
+  table.h-table:nth-child(30),
+  table.h-table:nth-child(30) *,
+  
+  table.h-table:nth-child(34),
+  table.h-table:nth-child(34) *,
+  
+  table.h-table:nth-child(38),
+  table.h-table:nth-child(38) * {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border-color: #444 !important;
+  }
+
+ table.h-table:nth-child(22) td:nth-child(3),
+table.h-table:nth-child(26) td:nth-child(3),
+table.h-table:nth-child(30) td:nth-child(3),
+table.h-table:nth-child(34) td:nth-child(3),
+table.h-table:nth-child(38) td:nth-child(3) {
+  color: #ff4d4d !important;
+}
+
+#tableAssignments,
+#tableAssignments *,
+
+table.h-table:nth-child(18), table.h-table:nth-child(18) *{
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+h3 {
+    color: #ffffff !important;
+  }
+  
+  
+table.h-table:nth-child(22) tr:nth-child(even),
+table.h-table:nth-child(26) tr:nth-child(even),
+table.h-table:nth-child(30) tr:nth-child(even),
+table.h-table:nth-child(34) tr:nth-child(even),
+table.h-table:nth-child(38) tr:nth-child(even) {
+  background-color: #2a2a2a !important;
+}
+
+
+
+
+  ul.nav:nth-child(3),
+ul.nav:nth-child(3) * {
+  background-color: #1e1e1e !important;
+  color: #ff4d4d !important;
+  border-color: #444 !important;
+}
+
+#selectassignmentbtn {
+    background-color: #cc4444 !important;
+    color: #ffffff !important;
+    border-color: #992e2e !important;
+    box-shadow: none !important;
+    background-image: none !important;
+  }
+  
+  #selectassignmentbtn:hover {
+    background-color: #d15555 !important;
+  }
+  
+  #setalert {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border-color: #444 !important;
+    box-shadow: none !important;
+    background-image: none !important;
+  }
+  
+  #setalert:hover {
+    background-color: #2a2a2a !important;
+  }
+  
+  
+  div.alert:nth-child(17),
+div.alert:nth-child(17) * {
+  text-shadow: none !important;
+}
+
+div.alert:nth-child(12), div.alert:nth-child(12) * {
+    text-shadow: none !important;
+}
+
+h1,
+.text__font-size--14, .text__font-size--16, text__grey--600 {
+  color: #ffffff !important;
+}
+ 
+div.alert:nth-child(13) {
+    text-shadow: none !important;
+  }
+  
+
+
+
+
 
 `;
 
-
-
-
-function applyCSS(tabId, apply) {
-    // Inject CSS into main page
-    if (apply) {
-        chrome.tabs.insertCSS(tabId, { code: css });
-    } else {
-        chrome.tabs.removeCSS(tabId, { code: css });
-    }
-
-    // Inject JS into iframe
-    chrome.tabs.executeScript(tabId, {
-        code: `
-      (function() {
-        const isDark = ${isDark};
-        const iframes = document.querySelectorAll('iframe');
-
-        for (const frame of iframes) {
-          try {
-            const doc = frame.contentDocument;
-            const head = doc.head || doc.getElementsByTagName('head')[0];
-
-            // Remove old dark mode styles if they exist
-            const existing = doc.getElementById('tinymce-dark-mode');
-            if (existing) existing.remove();
-
-            if (isDark) {
-              const style = doc.createElement('style');
-              style.id = 'tinymce-dark-mode';
-              style.textContent = \`
-                #tinymce {
-                  background-color: #1f2125 !important;
-                  color: #ffffff !important;
-                  font-size: 18px !important;
-                }
-                #tinymce *:not(a) {
-                  color: #ffffff !important;
-                  text-shadow: none !important;
-                }
-                #tinymce a {
-                  color: #a8d8ff !important;
-                }
-                #tinymce span[style*="background-color"] {
-                  background-color: transparent !important;
-                }
-                .mce-txt {
-                  background-color: #1e1e1e !important;
-                  color: #e0e0e0 !important;
-                }
-              \`;
-              head.appendChild(style);
-            }
-          } catch (e) {
-            // Ignore cross-origin iframes
-          }
-        }
-      })();
-    `
+chrome.runtime.onInstalled.addListener(() => {
+    chrome.storage.local.get('isDark', (data) => {
+      if (typeof data.isDark === 'undefined') {
+        chrome.storage.local.set({ isDark: true });
+      }
     });
-}
+  });
+  
 
-chrome.runtime.onMessage.addListener((message, sender) => {
-    if (message.action === 'toggle-dark') {
-        isDark = !isDark;
-        applyCSS(message.tabId, isDark);
+  chrome.storage.local.get('isDark', (data) => {
+    const value = typeof data.isDark === 'undefined' ? true : data.isDark;
+    chrome.storage.local.set({ isDark: value }, () => {
+      chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+        if (tabs[0]) applyCSS(tabs[0].id, value);
+      });
+    });
+  });
+  
+  
+  // Apply styles again on reload/navigation
+  chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+    if (changeInfo.status === 'complete') {
+      applyCSS(tabId, isDark);
     }
-});
+  });
+  
+  // Handle toggle button
+  chrome.runtime.onMessage.addListener((message, sender) => {
+    if (message.action === 'toggle-dark') {
+      chrome.storage.local.get('isDark', (data) => {
+        const newValue = !data.isDark;
+        chrome.storage.local.set({ isDark: newValue }, () => {
+          applyCSS(message.tabId, newValue);
+        });
+      });
+    }
+  });
+  
+
+
+  function applyCSS(tabId, apply) {
+    chrome.tabs.executeScript(tabId, {
+      code: `
+        (function() {
+          const styleId = 'custom-dark-mode';
+          const isDark = ${apply};
+  
+          let styleTag = document.getElementById(styleId);
+  
+          if (styleTag) styleTag.remove();
+  
+          if (isDark) {
+            styleTag = document.createElement('style');
+            styleTag.id = styleId;
+            styleTag.textContent = \`${css.replace(/`/g, '\\`')}\`;
+            document.head.appendChild(styleTag);
+          }
+  
+          const iframes = document.querySelectorAll('iframe');
+          for (const frame of iframes) {
+            try {
+              const doc = frame.contentDocument;
+              const head = doc.head || doc.getElementsByTagName('head')[0];
+              const existing = doc.getElementById('tinymce-dark-mode');
+              if (existing) existing.remove();
+  
+              if (isDark) {
+                const style = doc.createElement('style');
+                style.id = 'tinymce-dark-mode';
+                
+                style.textContent = \`
+  #tinymce {
+    background-color: #1f2125 !important;
+    color: #ffffff !important;
+    font-size: 20px !important;
+    padding: 20px !important;
+    line-height: 1.8 !important;
+  }
+  #tinymce *:not(a) {
+    text-shadow: none !important;
+
+  }
+  #tinymce a {
+    color: #a8d8ff !important;
+  }
+  #tinymce span[style*="background-color"] {
+    background-color: transparent !important;
+  }
+  .mce-txt {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+  }
+\`;
+
+                head.appendChild(style);
+              }
+            } catch (e) {
+              // Ignore cross-origin iframes
+            }
+          }
+        })();
+      `
+    });
+  }
+  
+  
+  
+  // Immediately apply dark mode on extension load
+  // Load and apply dark mode on extension startup
+  chrome.storage.local.get('isDark', (data) => {
+    const value = typeof data.isDark === 'undefined' ? true : data.isDark;
+    chrome.storage.local.set({ isDark: value }, () => {
+      chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+        if (tabs[0]) applyCSS(tabs[0].id, value);
+      });
+    });
+  });
+  
+  
+  // Re-apply on tab reloads or navigation
+  chrome.tabs.onUpdated.addListener((tabId, changeInfo) => {
+    if (changeInfo.status === 'complete') {
+      chrome.storage.local.get('isDark', (data) => {
+        if (data.isDark) applyCSS(tabId, true);
+      });
+    }
+  });
+  
+  // Toggle dark mode and store new state
+  chrome.runtime.onMessage.addListener((message, sender) => {
+    if (message.action === 'toggle-dark') {
+      chrome.storage.local.get('isDark', (data) => {
+        const newValue = !data.isDark;
+        chrome.storage.local.set({ isDark: newValue }, () => {
+          applyCSS(message.tabId, newValue);
+        });
+      });
+    }
+  });
+  
+
+chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+    if (changeInfo.status === 'complete') {
+      applyCSS(tabId, isDark);
+    }
+  });
+  
