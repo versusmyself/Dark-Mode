@@ -461,13 +461,116 @@ table.table:nth-child(16) > tbody:nth-child(1) > tr:nth-child(15) > td:nth-child
     border-color: #444 !important;
   }
 
- table.h-table:nth-child(22) td:nth-child(3),
-table.h-table:nth-child(26) td:nth-child(3),
-table.h-table:nth-child(30) td:nth-child(3),
-table.h-table:nth-child(34) td:nth-child(3),
-table.h-table:nth-child(38) td:nth-child(3) {
+  table.h-table:nth-child(22) td:nth-child(1),
+table.h-table:nth-child(26) td:nth-child(1),
+table.h-table:nth-child(30) td:nth-child(1),
+table.h-table:nth-child(34) td:nth-child(1),
+table.h-table:nth-child(38) td:nth-child(1) {
   color: #ff4d4d !important;
 }
+
+
+
+table.h-table:nth-child(18) a {
+  color: #ff4d4d !important;
+}
+
+table.h-table:nth-child(22) a {
+  color: #ff4d4d !important;
+}
+
+
+
+table.h-table:nth-child(26) a {
+  color: #ff4d4d !important;
+}
+
+table.h-table:nth-child(30) a {
+  color: #ff4d4d !important;
+}
+
+table.h-table:nth-child(18) tr:nth-child(even) td,
+table.h-table:nth-child(22) tr:nth-child(even) td,
+table.h-table:nth-child(26) tr:nth-child(even) td,
+table.h-table:nth-child(30) tr:nth-child(even) td {
+  background-color: #2a2a2a !important;
+}
+
+/* Odd rows - dark gray */
+table.h-table tr:nth-child(odd),
+table.h-table tr:nth-child(odd) * {
+  background-color: #1e1e1e !important;
+  background-image: none !important;
+}
+
+/* Even rows - slightly lighter gray */
+table.h-table tr:nth-child(even),
+table.h-table tr:nth-child(even) * {
+  background-color: #2a2a2a !important;
+  background-image: none !important;
+}
+
+div.alert:nth-child(13) {
+  background-color: #2a2a2a !important;
+  color: #ffffff !important;
+  text-shadow: none !important;
+  border: none !important;
+}
+
+table.h-table:nth-child(18) {
+  border: 1px solid #444 !important;
+}
+
+table.h-table:nth-child(18) td {
+  border-bottom: 1px solid #444 !important;
+}
+
+
+table.h-table:nth-child(18) > thead:nth-child(1) {
+  border-bottom: 1px solid #444 !important;
+}
+
+table.h-table:nth-child(18) > thead:nth-child(1) th {
+  border-bottom: 1px solid #444 !important;
+}
+
+.list-panel {
+  border: 1px solid #444 !important;
+}
+
+.card__header {
+  border: 1px solid #444 !important;
+}
+
+
+.card__body {
+  border: 1px solid #444 !important;
+}
+
+div.alert:nth-child(12) {
+  border: 1px solid #444 !important;
+}
+
+.card__header,
+.card__header * {
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+div.col-sm-12:nth-child(2),
+div.col-sm-12:nth-child(2) * {
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+div.alert:nth-child(12),
+div.alert:nth-child(12) * {
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+
+
 
 #tableAssignments,
 #tableAssignments *,
@@ -642,6 +745,8 @@ chrome.runtime.onInstalled.addListener(() => {
     background-color: #1e1e1e !important;
     color: #e0e0e0 !important;
   }
+
+
 \`;
 
                 head.appendChild(style);
