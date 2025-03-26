@@ -1,5 +1,6 @@
-document.getElementById('toggle').addEventListener('click', async () => {
-    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-    chrome.runtime.sendMessage({ action: 'toggle-dark', tabId: tab.id });
+document.getElementById('toggle').addEventListener('click', () => {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      chrome.runtime.sendMessage({ action: 'toggle-dark', tabId: tabs[0].id });
+    });
   });
   

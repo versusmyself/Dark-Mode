@@ -1,15 +1,19 @@
 {
-    "manifest_version": 3,
-    "name": "HOTH Dark Mode Toggle",
+    "manifest_version": 2,
+    "name": "HOTH Dark Mode",
     "version": "1.0",
-    "description": "Toggle dark mode on thehoth.com.",
-    "permissions": ["scripting", "tabs", "storage"],
-    "host_permissions": ["https://www.thehoth.com/*"],
-    "action": {
+    "description": "Enable dark mode on thehoth.com.",
+    "permissions": [
+      "https://www.thehoth.com/*",
+      "tabs",
+      "storage",
+      "activeTab"
+    ],
+    "browser_action": {
       "default_popup": "popup.html"
     },
     "background": {
-      "service_worker": "background.js"
+      "scripts": ["background.js"]
     }
   }
   
