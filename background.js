@@ -727,9 +727,6 @@ chrome.runtime.onInstalled.addListener(() => {
   #tinymce {
     background-color: #1f2125 !important;
     color: #ffffff !important;
-    font-size: 20px !important;
-    padding: 20px !important;
-    line-height: 1.8 !important;
   }
   #tinymce *:not(a) {
     text-shadow: none !important;
@@ -772,6 +769,11 @@ chrome.runtime.onInstalled.addListener(() => {
       });
     });
   });
+
+  
+  
+  
+  
   
   
   // Re-apply on tab reloads or navigation
